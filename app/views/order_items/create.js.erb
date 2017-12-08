@@ -1,1 +1,3 @@
 $('.cartQuantity').html('<%= cart_items %>')
+$('#flash').html('<%= j render "shared/flash" %>')
+$('#errors').html('<%= j render "shared/errors", :object => @item %>')

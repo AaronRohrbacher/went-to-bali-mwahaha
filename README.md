@@ -21,3 +21,6 @@ To set up:
 
 * Delete items from shopping cart seamlessly!
   * added destroy.js.erb to order_items view, added classes to application layout and cart show views to display total and quantities.
+
+* No more negative or non-quantities!
+  * added flash and error partials in a "shared" folder, and render them on pages. Added validation to order_item model.
