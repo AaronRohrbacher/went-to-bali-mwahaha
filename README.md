@@ -29,4 +29,4 @@ To set up:
   * added flash messages for the sign in and out process
 
 * Admins can now add/edit/delete projects right from the site!
-  * Added links to add/edit/delete for admins only in index.html.erb in products view. Thanks for pre-authorizing! 
+  * Added links to add/edit/delete for admins only in index.html.erb in products view. Thanks for pre-authorizing! Added update and delete functions in product controller, added flash messages for said functions.
