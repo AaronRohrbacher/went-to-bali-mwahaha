@@ -24,3 +24,6 @@ To set up:
 
 * No more negative or non-quantities!
   * added flash and error partials in a "shared" folder, and render them on pages. Added validation to order_item model.
+
+* Sign in/out and create account messages!
+  * added flash messages for the sign in and out process
