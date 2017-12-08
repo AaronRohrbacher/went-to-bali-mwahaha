@@ -33,3 +33,6 @@ To set up:
 
 * Add validations for products- no more blank titles!
   * added basic validation to product model.
+
+* Slightly improved grid system for products page!
+  * added "flex" bootstrap feature to columns on products view, index.html.erb, will display as many wide as possible for device.
