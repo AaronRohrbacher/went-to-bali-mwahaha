@@ -18,3 +18,6 @@ To set up:
   * added db migration to include image_url in products table, added image_url to seed file and params in products_controller.rb.
 
 * Add item to cart from item detail page!
+
+* Delete items from shopping cart seamlessly!
+  * added destroy.js.erb to order_items view, added classes to application layout and cart show views to display total and quantities.
