@@ -1,3 +1,9 @@
 <%= link_to 'Continue shopping', product_path, remote: true %>
 <h1><%= @product.name %></h1>
 <%= image_tag(@product.image_url) %>
+
+<%= form_for @order_item, remote: true do |f| %>
+  <%= f.hidden_field :product_id, value: @product.id %>
+  <%= f.number_field :quantity, placeholder: "Oops, breaks if you don't add input!" %>
+  <span class="waves-effect waves-light btn"><%= f.submit "Add to cart" %></span>
+<% end %>

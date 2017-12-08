@@ -16,3 +16,5 @@ To set up:
 
 * View an image of the product in a newly-designed product detail page!
   * added db migration to include image_url in products table, added image_url to seed file and params in products_controller.rb.
+
+* Add item to cart from item detail page!
