@@ -12,3 +12,7 @@ To set up:
 #In this version
 
 * Add items to the shopping cart from the front page, without a constant reload. See the items update before your eyes!
+  * created detail.html partial, and show.js.erb, added "show" method to products_controller.rb.
+
+* View an image of the product in a newly-designed product detail page!
+  * added db migration to include image_url in products table, added image_url to seed file and params in products_controller.rb.
