@@ -30,3 +30,6 @@ To set up:
 
 * Admins can now add/edit/delete projects right from the site!
   * Added links to add/edit/delete for admins only in index.html.erb in products view. Thanks for pre-authorizing! Added update and delete functions in product controller, added flash messages for said functions. Added form partial for add/edit, updated "password" to "price" in said form. Changed price from number to text field to allow decimals in form partial.
+
+* Add validations for products- no more blank titles!
+  * added basic validation to product model.

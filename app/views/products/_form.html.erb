@@ -1,3 +1,5 @@
+<%= render "shared/errors", :object => @product %>
+
 <%= form_for @product do |f| %>
   Name: <%= f.text_field :name %>
   Description: <%= f.text_field :description %>
