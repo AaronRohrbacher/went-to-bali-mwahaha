@@ -3,13 +3,18 @@
 E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
 
 To set up:
+* Clone this repository, and navigate to its directory in your favorite terminal application. Requires a Ruby on Rails environment.
 
-* `rake db:setup`
-  * Note: if you get an error after running, it's likely a Rake version error. Instead, run: `bundle exec rake db:setup`. This should fix ya up!
+* run `bundle install`
 
-* Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+* run `rake db:setup`
 
-#In this version
+* run `rails s`
+
+* Open your favorite web browser, and point to `localhost:3000` to start using the development shopping cart!
+
+
+#New in this version
 
 * Add items to the shopping cart from the front page, without a constant reload. See the items update before your eyes!
   * created detail.html partial, and show.js.erb, added "show" method to products_controller.rb.
@@ -36,3 +41,5 @@ To set up:
 
 * Slightly improved grid system for products page!
   * added "flex" bootstrap feature to columns on products view, index.html.erb, will display as many wide as possible for device.
+
+* Ran `bundle update` to update rake to current version, 12.3.
